@@ -1,0 +1,22 @@
+{
+  "name": "symfonicat/analytics",
+  "version": "1.0.0",
+  "description": "Analytics package for Symfonicat.",
+  "type": "library",
+  "require": {
+    "symfonicat/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Symfonicat\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "taypme"
+    }
+  ],
+  "extra": {
+    "symfonicat": true
+  }
+}
