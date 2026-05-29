@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Symfonicat\Module\:
+        resource: "../src/Module/"
+        tags: ["controller.service_arguments"]
+
+    Symfonicat\Service\:
+        resource: "../src/Service/"
+
+    Symfonicat\Middleware\:
+        resource: "../src/Middleware/"
